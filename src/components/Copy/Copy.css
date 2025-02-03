@@ -1,0 +1,12 @@
+.copy-container {
+    font-family: 'Sofia', sans-serif;
+    margin: 10%;   
+}
+
+.copy-container a {
+    color: blue;
+}
+
+.copy-container p {
+    margin-bottom: 20px;
+}
