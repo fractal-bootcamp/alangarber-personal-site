@@ -14,7 +14,13 @@ function Body() {
             <div>Hi, my name is Alan!</div>
           ) : (
             <TypeWriterEffect
-              textStyle={{ fontFamily: "Oxanium", fontSize: "1.5em", color: "black", fontWeight: "normal", textShadow: "#FC0 1px 0 10px" }}
+              textStyle={{
+                fontFamily: "Oxanium",
+                fontSize: "1.5em",
+                color: "black",
+                fontWeight: "normal",
+                textShadow: "#FC0 1px 0 10px",
+              }}
               startDelay={100}
               typeSpeed={50}
               cursorColor="black"
@@ -29,8 +35,14 @@ function Body() {
             </div>
           ) : (
             <TypeWriterEffect
-            textStyle={{ fontFamily: "Oxanium", fontSize: "1.5em", color: "black", fontWeight: "normal", textShadow: "#FC0 1px 0 10px" }}
-            startDelay={100}
+              textStyle={{
+                fontFamily: "Oxanium",
+                fontSize: "1.5em",
+                color: "black",
+                fontWeight: "normal",
+                textShadow: "#FC0 1px 0 10px",
+              }}
+              startDelay={100}
               typeSpeed={50}
               cursorColor="black"
               multiText={[
@@ -45,8 +57,14 @@ function Body() {
             <div>You should hire me.</div>
           ) : (
             <TypeWriterEffect
-            textStyle={{ fontFamily: "Oxanium", fontSize: "1.5em", color: "black", fontWeight: "normal", textShadow: "#FC0 1px 0 10px" }}
-            startDelay={100}
+              textStyle={{
+                fontFamily: "Oxanium",
+                fontSize: "1.5em",
+                color: "black",
+                fontWeight: "normal",
+                textShadow: "#FC0 1px 0 10px",
+              }}
+              startDelay={100}
               typeSpeed={50}
               cursorColor="black"
               multiText={["You should hire me.", "You should hire me."]}
@@ -80,7 +98,7 @@ function Body() {
             src={ProfilePicture}
             alt="This is me in May 2022 at 18th Avenue Library at Ohio State."
             className="body-right-img"
-            style={{ "clipPath": "circle()"}}
+            style={{ clipPath: "circle()" }}
           ></img>
         </div>
       </div>
