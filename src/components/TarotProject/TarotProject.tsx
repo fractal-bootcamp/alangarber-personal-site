@@ -11,28 +11,29 @@ const TarotProject = () => {
         <img src={KingOfPentacles} alt="Tarot Card 2" className="tarot-card" />
       </div>
       <div className="button-container">
-        <a href="https://alansarcana.com" target="_blank" rel="noreferrer">
-          <button className="spooky-button">
-            <strong>SEE PROJECT</strong>
-          </button>
+        <a
+          href="https://alansarcana.com"
+          target="_blank"
+          rel="noreferrer"
+          className="spooky-button"
+        >
+          <strong>SEE PROJECT</strong>
         </a>
         <a
           href="https://github.com/OldEphraim/tarot-project"
           target="_blank"
           rel="noreferrer"
+          className="spooky-button"
         >
-          <button className="spooky-button">
-            <strong>SEE GITHUB</strong>
-          </button>
+          <strong>SEE GITHUB</strong>
         </a>
         <a
           href="https://oldephraimlearnstocode.wordpress.com/2024/11/24/tarot-project-links/"
           target="_blank"
           rel="noreferrer"
+          className="spooky-button"
         >
-          <button className="spooky-button">
-            <strong>SEE BLOGPOST</strong>
-          </button>
+          <strong>SEE BLOGPOST</strong>
         </a>
       </div>
     </div>
