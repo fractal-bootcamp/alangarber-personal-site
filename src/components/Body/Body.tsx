@@ -73,19 +73,21 @@ function Body() {
             />
           )}
           <div className="button-container">
-            <button>
-              <a
-                href="https://alanmgarber.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Show My Work!
-              </a>
-            </button>
-            <button>
-              <a href="mailto:a8garber@yahoo.com">Hire Me!</a>
-            </button>
-            <button onClick={() => setTypewriterOff(!typewriterOff)}>
+            <a
+              href="https://alanmgarber.com"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              Show My Work!
+            </a>
+            <a href="mailto:a8garber@yahoo.com" className="btn">
+              Hire Me!
+            </a>
+            <button
+              onClick={() => setTypewriterOff(!typewriterOff)}
+              className="btn"
+            >
               {typewriterOff
                 ? "Typewriter Effect To The Max"
                 : "No, Stop the Typewriter, Please"}
