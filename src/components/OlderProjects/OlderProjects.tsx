@@ -26,10 +26,10 @@ const OlderProjects = () => {
           />
           <div className="project-explanation">
             <ul>
-              <li>&bull; Magic: The Gathering card lookup website</li>
-              <li>&bull; Built with Angular and MTG Developers API</li>
+              <li>Magic: The Gathering card lookup website</li>
+              <li>Built with Angular and MTG Developers API</li>
               <li>
-                &bull; Showcases use of routing, state, dependency injection,
+                Showcases use of routing, state, dependency injection,
                 and pipes in Angular
               </li>
             </ul>
@@ -69,12 +69,12 @@ const OlderProjects = () => {
           />
           <div className="project-explanation">
             <ul>
-              <li>&bull; Travel advisory website</li>
+              <li>Travel advisory website</li>
               <li>
-                &bull; Shows hotels, restaurants, and attractions near you
+                Shows hotels, restaurants, and attractions near you
               </li>
               <li>
-                &bull; Built with React, Google Maps API, and Travel Advisor API
+                Built with React, Google Maps API, and Travel Advisor API
               </li>
             </ul>
           </div>
@@ -114,10 +114,10 @@ const OlderProjects = () => {
           <div className="project-explanation">
             <ul>
               <li>
-                &bull; Swordle; clone of popular Internet phenomenon Wordle
+                Swordle; clone of popular Internet phenomenon Wordle
               </li>
-              <li>&bull; Built with React and CSS</li>
-              <li>&bull; Showcases knowledge of React hooks</li>
+              <li>Built with React and CSS</li>
+              <li>Showcases knowledge of React hooks</li>
             </ul>
           </div>
           <div className="button-container">
@@ -155,9 +155,9 @@ const OlderProjects = () => {
           />
           <div className="project-explanation">
             <ul>
-              <li>&bull; Word association game</li>
-              <li>&bull; Features multiple choice questions</li>
-              <li>&bull; Built with React, CSS, and Word Quiz API</li>
+              <li>Word association game</li>
+              <li>Features multiple choice questions</li>
+              <li>Built with React, CSS, and Word Quiz API</li>
             </ul>
           </div>
           <div className="button-container">
