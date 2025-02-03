@@ -33,7 +33,7 @@ const Skills = () => {
                 </figure>
                 <figure className="content">
                     <FontAwesomeIcon icon={faSass} size="3x" />
-                    <figcaption>Sass</figcaption
+                    <figcaption>Sass</figcaption>
                 </figure>
                 <figure className="content">
                     <FontAwesomeIcon icon={faGolang} size="3x" />

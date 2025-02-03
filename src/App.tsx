@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar.tsx";
 import Body from "./components/Body/Body.tsx";
 import Copy from "./components/Copy/Copy.tsx";
 import TarotProject from "./components/TarotProject/TarotProject.tsx";
+import Skills from "./components/Skills/Skills.tsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Body />
         <Copy />
         <TarotProject />
+        <Skills />
       </div>
     </>
   );
