@@ -8,7 +8,7 @@
 .skill-content {
     display: flex;
     justify-content: center;
-    direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -16,7 +16,7 @@
 .content {
     display: flex;
     justify-content: center;
-    direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
