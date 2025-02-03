@@ -47,3 +47,10 @@ h1 {
 .spooky-button:hover {
     background: #444;
 } 
+
+@media only screen and (max-width: 836px) {
+    .button-container {
+        gap: 1.5%;
+        font-size: 0.5em;
+    }
+}
